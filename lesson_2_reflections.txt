@@ -11,3 +11,14 @@ How can you use the staging area to make sure you have one commit per logical
 I can use it to see exactly how diffent the files in the working area is from
     the files in the staging area and how different the files in staging area
 	is from the files in the repository.
+
+What are some situations when branches would be helpful in keeping your history 
+    organized? How would branches help?
+Branches allows me to add some new features or experiment my program without
+    making change in the main version of my program itself.
+	
+How do the diagrams help you visualize the branch structure?
+It helps me see what is my master branch and where my other branches start
+Also helps me see if there is any commit that doesnt have a branch's name (which
+    can be lost), so I can create a branch name for that commit in order to save
+	that commit.
