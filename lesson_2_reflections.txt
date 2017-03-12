@@ -22,3 +22,8 @@ It helps me see what is my master branch and where my other branches start
 Also helps me see if there is any commit that doesnt have a branch's name (which
     can be lost), so I can create a branch name for that commit in order to save
 	that commit.
+
+What is the result of merging two branches together? Why do we represent it in
+    the diagram the way we do?
+Merging two branch makes the HEAD commit of the master branch become the merged
+    commit. Now the HEAD commit connects to both of the merged branches.
