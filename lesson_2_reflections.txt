@@ -27,3 +27,12 @@ What is the result of merging two branches together? Why do we represent it in
     the diagram the way we do?
 Merging two branch makes the HEAD commit of the master branch become the merged
     commit. Now the HEAD commit connects to both of the merged branches.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing
+    merges manually?
+Pro: making it easy for the user to merge commits, especially when there are
+    multiple people working on multiple branches of the same projects, thus
+	saving time
+Cons: sine each programmer could modify the original commit differently, this
+    could lead to a lot of conflicts when merging, so we need to carefully
+	double check the code the resolve those conflicts.
