@@ -12,3 +12,8 @@ Clone: make a copy of a repository remotely from a github page, or locally on my
   Used when I want to work on my code, which is available on Github, on my computer
 Branch: make a new branch on the current repository
   Used when I want to make changes/ add more features to my code without affecting the main/working one
+  
+What is the benefit of having a copy of the last known state of the remote stored locally?
+That file will be stored in origin/master branch (if I fetch it). It doesn't merge with
+  my original branch immediately, so I can still work on my code on master branch
+  and decide later on if I want to merge with origin/master
